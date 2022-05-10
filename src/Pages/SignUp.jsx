@@ -20,7 +20,7 @@ export default function SignUp() {
                         </span>
                         <input
                             type="text"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5  mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-2  mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="email@email.com"
                         />
                     </label>
@@ -30,7 +30,7 @@ export default function SignUp() {
                         </span>
                         <input
                             type="password"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-2 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="*******"
                         />
                     </label>
@@ -40,7 +40,7 @@ export default function SignUp() {
                         </span>
                         <input
                             type="password"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-2 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="*******"
                         />
                     </label>
@@ -50,7 +50,7 @@ export default function SignUp() {
                         </span>
                         <input
                             type="text"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-2 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="Alex"
                         />
                     </label>
@@ -60,7 +60,7 @@ export default function SignUp() {
                         </span>
                         <input
                             type="text"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-2 mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="https://google.com"
                         />
                     </label>

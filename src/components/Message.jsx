@@ -1,10 +1,18 @@
 import React from "react";
-import styled from "styled-components";
 
-export default function Message(message) {
+export default function Message({ message }) {
     return (
-        <span className=" py-2 px-4 mb-3 bg-sky-600 text-white shadow-md shadow-sky-200 rounded-sm ml-auto">
-            {message.detail}
-        </span>
+        <div className="flex gap-4">
+            <div className="flex flex-col justify-end">
+                <img
+                    src={message.image}
+                    alt=""
+                    className="rounded-full block w-[50px] h-[50px] object-cover"
+                />
+            </div>
+            <div className=" bg-dark-100 rounded-lg max-w-lg">
+                <p className="text-gray-200  p-5">{message.detail}</p>
+            </div>
+        </div>
     );
 }

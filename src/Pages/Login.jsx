@@ -1,13 +1,9 @@
 import React from "react";
 import { FaPaperPlane, FaFacebookF } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import { auth, db, fbProvider } from "../firebase/config";
-// import { signInWithPopup } from "firebase/auth";
+
 export default function Login() {
-    const handleFbLogin = () => {
-        // signInWithPopup(auth, fbProvider);
-    };
-    // auth.onAuthStateChanged((user) => console.log(user));
+    const handleFbLogin = () => {};
     return (
         <div className=" bg-dark-200 flex justify-center items-center w-screen min-h-screen">
             <div className="w-full px-2 py-2 md:w-[400px]">
@@ -20,22 +16,22 @@ export default function Login() {
                 </h2>
                 <div className="bg-dark-100 rounded-md box-border px-5 py-8 mt-8 shadow-sm shadow-slate-900 ">
                     <label className="block">
-                        <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block font-medium text-gray-300 text-lg">
+                        <span className=" block font-medium text-gray-300 text-lg">
                             Email
                         </span>
                         <input
                             type="email"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5  mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue bg-dark-300 outline-0	px-3 py-2  mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="email@email.com"
                         />
                     </label>
                     <label className="block mt-3">
-                        <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block  font-medium text-gray-300 text-lg">
+                        <span className=" block  font-medium text-gray-300 text-lg">
                             Password
                         </span>
                         <input
                             type="password"
-                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-1.5  mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
+                            className="block w-full rounded-md bg-darkestBlue borde bg-dark-300 outline-0	px-3 py-2  mt-2 focus:border-slate-900 text-gray-300 text-lg placeholder:text-gray-400"
                             placeholder="*******"
                         />
                     </label>
