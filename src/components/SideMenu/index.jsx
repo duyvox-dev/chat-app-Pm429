@@ -1,5 +1,5 @@
 import React from "react";
-import profileDefault from "../assets/images/profile_default.jpg";
+import profileDefault from "../../assets/images/profile_default.jpg";
 import { FaPaperPlane, FaUserCircle } from "react-icons/fa";
 import { TiContacts } from "react-icons/ti";
 import { FiMail, FiUsers, FiUser, FiSettings, FiBook } from "react-icons/fi";

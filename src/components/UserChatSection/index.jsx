@@ -9,7 +9,7 @@ const SearchBox = () => {
                 className="block w-full rounded-md bg-darkestBlue bg-dark-100 outline-0 border border-transparent pl-3 pr-12 py-2  mt-2 focus:border focus:border-dark-50  text-gray-300  box-border placeholder:text-gray-400 "
                 placeholder="Search for user"
             />
-            <FaSearch className="absolute top-1/2 -translate-y-[25%] right-5 text-dark-50 cursor-pointer"></FaSearch>
+            <FaSearch className="absolute top-1/2 -translate-y-[25%] right-5 text-dark-50 "></FaSearch>
         </div>
     );
 };

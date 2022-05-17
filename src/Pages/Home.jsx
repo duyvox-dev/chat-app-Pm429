@@ -1,7 +1,7 @@
 import React from "react";
-import SideMenu from "../components/SideMenu";
-import UserChatSection from "../components/UserChatSection";
-import ChatBox from "../components/ChatBox";
+import SideMenu from "../components/SideMenu/index";
+import UserChatSection from "../components/UserChatSection/index";
+import ChatBox from "../components/ChatBox/index";
 
 export default function Home() {
     return (

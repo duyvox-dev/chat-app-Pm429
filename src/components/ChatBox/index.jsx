@@ -1,5 +1,5 @@
 import React from "react";
-import profileDefault from "../assets/images/profile_default.jpg";
+import profileDefault from "../../assets/images/profile_default.jpg";
 import { FiChevronsRight, FiImage, FiLink } from "react-icons/fi";
 import MessageList from "./MessageList";
 export default function ChatSection() {
@@ -7,6 +7,7 @@ export default function ChatSection() {
         {
             detail: "Accusamus sit sequi voluptatum aut vitae consectetur maxime voluptas praesentium.",
             image: "https://yt3.ggpht.com/cWNkg93oYga0W5Bosdb5Bb-A6Kq1etuzEGJyYZGTFjyuW5SgdDccdmJiR8K9-QjKHG_B0bnIXQ=s900-c-k-c0x00ffffff-no-rj",
+
             id: "1",
         },
         {
